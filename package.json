@@ -1,0 +1,14 @@
+{
+  "name": "quilt-ewitness",
+  "version": "0.1.0",
+  "description": "Anytime-valid e-process witnesses over training curves - Ville-bound honesty for 'it learned' claims.",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node --test test/",
+    "xor": "node experiments/xor-loss/run.mjs",
+    "sine": "node experiments/sine-loss/run.mjs"
+  },
+  "license": "MIT",
+  "private": false
+}
