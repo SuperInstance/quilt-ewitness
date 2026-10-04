@@ -5,7 +5,7 @@
   "type": "module",
   "engines": { "node": ">=18" },
   "scripts": {
-    "test": "node --test test/",
+    "test": "node --test",
     "xor": "node experiments/xor-loss/run.mjs",
     "sine": "node experiments/sine-loss/run.mjs"
   },
